@@ -1,8 +1,8 @@
 import Gulp from 'gulp';
 import mocha from 'gulp-mocha';
-import plumber from '../src/plumber';
+import plumber from 'linoleum/src/plumber';
 
-import {testFiles} from '../index';
+import {testFiles} from 'linoleum';
 
 Gulp.task('test:mocha', function() {
   return Gulp.src(testFiles())
