@@ -2,10 +2,10 @@ import Gulp from 'gulp';
 import istanbul from 'gulp-istanbul';
 import mocha from 'gulp-mocha';
 
-import {instrumenterConfig} from 'linoleum/src/cover';
-import plumber from 'linoleum/src/plumber';
+import {instrumenterConfig} from '@kpdecker/linoleum/src/cover';
+import plumber from '@kpdecker/linoleum/src/plumber';
 
-import {SOURCE_FILES, COVERAGE_TARGET, testFiles} from 'linoleum';
+import {SOURCE_FILES, COVERAGE_TARGET, testFiles} from '@kpdecker/linoleum';
 
 function coverSourceFiles() {
   return Gulp.src(SOURCE_FILES)

@@ -30,7 +30,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "linoleum"
+      "@kpdecker/eslint-config-linoleum"
     ],
     "root": true
   }

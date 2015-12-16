@@ -1,9 +1,9 @@
 import Gulp from 'gulp';
 import babel from 'gulp-babel';
-import plumber from 'linoleum/src/plumber';
+import plumber from '@kpdecker/linoleum/src/plumber';
 
-import {SOURCE_FILES, BUILD_TARGET} from 'linoleum';
-import BABEL_DEFAULTS from 'linoleum/babel-defaults';
+import {SOURCE_FILES, BUILD_TARGET} from '@kpdecker/linoleum';
+import BABEL_DEFAULTS from '@kpdecker/linoleum/babel-defaults';
 
 Gulp.task('babel', function() {
   return Gulp.src(SOURCE_FILES)
