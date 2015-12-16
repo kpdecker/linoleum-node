@@ -1,5 +1,5 @@
 {
-  "name": "linoleum-node",
+  "name": "@kpdecker/linoleum-node",
   "version": "0.0.0",
   "description": "Shared javascript build and testing infrastructure",
   "main": "index.js",
@@ -16,7 +16,6 @@
     "url": "https://github.com/kpdecker/linoleum-node/issues"
   },
   "homepage": "https://github.com/kpdecker/linoleum-node#readme",
-  "private": true,
   "dependencies": {
     "@kpdecker/linoleum": "^1.0.0",
     "gulp-babel": "^6.1.0",
