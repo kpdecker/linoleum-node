@@ -7,8 +7,8 @@ Node build infrastructure for Linoleum projects.
 Within `Gulpfile.js`:
 
 ```
-require('linoleum');
-require('linoleum-node');
+require('@kpdecker/linoleum');
+require('@kpdecker/linoleum-node');
 ```
 
 Defines:
