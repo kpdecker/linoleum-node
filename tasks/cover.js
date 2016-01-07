@@ -5,7 +5,7 @@ import mocha from 'gulp-mocha';
 import {instrumenterConfig} from '@kpdecker/linoleum/src/cover';
 import plumber from '@kpdecker/linoleum/src/plumber';
 
-import {SOURCE_FILES, COVERAGE_TARGET, testFiles} from '@kpdecker/linoleum';
+import {SOURCE_FILES, COVERAGE_TARGET, testFiles} from '@kpdecker/linoleum/config';
 
 function coverSourceFiles() {
   return Gulp.src(SOURCE_FILES)

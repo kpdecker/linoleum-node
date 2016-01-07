@@ -2,7 +2,7 @@ import Gulp from 'gulp';
 import mocha from 'gulp-mocha';
 import plumber from '@kpdecker/linoleum/src/plumber';
 
-import {testFiles} from '@kpdecker/linoleum';
+import {testFiles} from '@kpdecker/linoleum/config';
 
 Gulp.task('test:mocha', function() {
   return Gulp.src(testFiles())
