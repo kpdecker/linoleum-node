@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kpdecker/linoleum-node#readme",
   "dependencies": {
-    "@kpdecker/linoleum": "^1.0.0",
+    "@kpdecker/linoleum": "^2.0.0",
     "gulp-babel": "^6.1.0",
     "gulp-istanbul": "^0.10.0",
     "gulp-mocha": "^2.1.3"
